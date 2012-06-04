@@ -16,7 +16,7 @@ describe Elevator, "#floors" do
   end
   
   it "returns if ENABLED " do
-    #@elevator.enabled = true
+    @elevator.enabled = true
 	puts @elevator.enabled
     @elevator.enabled.should be_true
   end
