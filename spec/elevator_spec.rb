@@ -8,7 +8,7 @@ describe Elevator, "#floors" do
 	#@elevator.enabled = true
   end
   
-  #after(:
+  #after(:each) do
   
   it "returns number of floors" do
 	@elevator.floors = 1
