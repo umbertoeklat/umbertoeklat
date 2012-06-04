@@ -5,7 +5,7 @@ require 'elevator'
 describe Elevator, "#floors" do
   before(:each) do
     @elevator = Elevator.new
-	#@elevator.enabled = true
+	@elevator.enabled = true
   end
   
   #after(:each) do
@@ -16,7 +16,7 @@ describe Elevator, "#floors" do
   end
   
   it "returns if ENABLED " do
-    @elevator.enabled = true
+    #@elevator.enabled = true
 	puts @elevator.enabled
     @elevator.enabled.should be_true
   end
