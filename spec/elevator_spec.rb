@@ -2,7 +2,7 @@
 require 'elevator'
 #require 'building'
 
-describe Elevator, "#floors" do
+describe levator, "#floors" do
   before(:each) do
     @elevator = Elevator.new
 	#@elevator.enabled = true
