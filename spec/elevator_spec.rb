@@ -4,7 +4,7 @@ require 'elevator'
 
 describe Elevator, "#floors" do
   before(:each) do
-    @elevator = Elevator.new
+    @elevator = Elevator.new(10, 10, 0..9, 1, true, 'open')
 	#@elevator.enabled = true
   end
   
