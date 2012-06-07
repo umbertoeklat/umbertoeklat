@@ -39,7 +39,8 @@ describe Elevator, "#attributes" do
   subject { @elevator.enabled }
   it {should be_true} 
   
-  it "should have max load capacity"
+  it "should have max load capacity."
+  pending "should have max passengers."
 end
 
 #describe Building, "#levels" do
